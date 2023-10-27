@@ -4,19 +4,22 @@ function tocaSomPom() {
 
 document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
+
 function tocaSomClap() {
     document.querySelector('#som_tecla_clap').play();
 }
 
 document.querySelector('.tecla_clap').onclick = tocaSomClap;
 
-function TocaSomTim(){
-    document.querySelector('#som_tecla_Tim').play();
-}
-document.querySelector('.tecla_tim').onclick=TocaSomTim;
 
-function TocaSomPuff(){
+function TocaSomTim() {
+    document.querySelector('#som_tecla_tim').play();
+}
+document.querySelector('.tecla_tim').onclick = TocaSomTim;
+
+
+function TocaSomPuff() {
     document.querySelector('#som_tecla_puff').play();
 }
 
-document.querySelector('.tecla_Puff').onclick=TocaSomPuff;
+document.querySelector('.tecla_puff').onclick = TocaSomPuff;
